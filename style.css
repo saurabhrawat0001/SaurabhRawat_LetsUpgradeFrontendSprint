@@ -1,0 +1,1171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+.header {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    height: 80px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.header .header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-logo h2 {
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-logo h2 i {
+    font-size: 30px;
+    font-weight: 800px;
+    color: rgb(11, 109, 93);
+    margin-right: 10px;
+}
+
+.header .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 40px;
+}
+
+.header .navigation li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.header .navigation li a:hover {
+    color: rgb(11, 109, 93);
+}
+
+.hero-section video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-section .container {
+    position: absolute;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 25px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-section .container .hero-text {
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section .container .hero-text h4 {
+    font-size: 45px;
+    font-weight: 80;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero-section .container .hero-text h4 span {
+    font-size: 50px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    font-weight: 800;
+}
+
+.hero-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-section .container .hero-text p {
+    font-size: 17px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.hero-section .container .hero-text button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-section .container .hero-text button:hover {
+    transform: scale(1.05);
+}
+
+.pet-selection {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pet-selection .heading {
+    text-align: center;
+}
+
+.pet-selection .heading h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-section {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-section .card {
+    background: rgb(246, 252, 250);
+    padding: 20px;
+    border-radius: 6px;
+    margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-section .card:hover {
+    transform: scale(1.05);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(190, 206, 203);
+}
+
+.card i {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(11, 109, 93);
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.about-us {
+    background-image: url('https://images.pexels.com/photos/7474089/pexels-photo-7474089.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    border-radius: 10px;
+    padding: 30px 35px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    width: 60%;
+    color: white;
+}
+
+.para h1 {
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.para p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin-top: 15px;
+}
+
+.adoption-form {
+    margin-top: 70px;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.adoption-form a {
+    text-decoration: none;
+    color: white;
+}
+
+.adoption-form .container {
+    background: rgb(243, 251, 248);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.adoption-form .container h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.adoption-form .container .btn {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    background: rgb(11, 109, 93);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.adoption-form .container .btn:hover {
+    transform: scale(1.08);
+}
+
+.contactUs {
+    background: rgb(246, 252, 250);
+    padding: 30px;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUs h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contactUs .contact-form {
+    width: 400px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 30px 20px;
+    background-color: rgb(11, 109, 93);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contactUs .contact-form label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: white;
+}
+
+.contactUs .contact-form input {
+    padding: 12px 8px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contactUs .contact-form textarea {
+    resize: none;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    height: 100px;
+}
+
+.contactUs .contact-form .contact-btn {
+    background: rgb(250, 68, 2);
+    color: white;
+    padding: 12px 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer-section {
+    width: 100%;
+    background: rgb(246, 252, 250);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.footer-top,
+.footer-bottom {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.footer-section .footer-top .container .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section .footer-top .container .row .col div {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-section .footer-top .container .row .col ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer-top .container .row .col ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.footer-top .container .row .col .bottom-header-logo h2 {
+    font-size: 25px;
+}
+
+.footer-top .container .row .col .bottom-header-logo i {
+    color: rgb(11, 109, 93);
+}
+
+.footer-top .container .row .col .social-icons {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.footer-top .container .row .col .social-icons i {
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-top .container .row .col .social-icons i:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.footer-bottom p {
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .header {
+        height: 60px;
+        padding: 0 15px;
+    }
+
+    .header .header-logo h2 {
+        font-size: 18px;
+    }
+
+    .header .header-logo h2 i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    .header .navigation {
+        gap: 12px;
+    }
+
+    .header .main-menu .navigation li a {
+        font-size: 12px;
+    }
+
+    .hero-section .container {
+        width: 60%;
+        padding: 25px 30px;
+    }
+
+    .hero-section .container .hero-text h4 {
+        font-size: 25px;
+    }
+
+    .hero-section .container .hero-text h4 span {
+        font-size: 30px;
+    }
+
+    .hero-section .container .hero-text p {
+        font-size: 15px;
+        margin: 20px 0;
+    }
+
+    .hero-section .container .hero-text button {
+        padding: 12px 25px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .pet-selection .heading h1 {
+        font-size: 25px;
+    }
+
+    .pet-selection {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .card-section {
+        width: 100%;
+        margin: 10px 5px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .card-section .card {
+        padding: 10px 8px;
+        margin: 5px;
+    }
+
+    .card i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .about-us {
+        height: 80%;
+    }
+
+    .para {
+        padding: 30px 35px;
+        width: 70%;
+    }
+
+    .para h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .para p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .adoption-form .container {
+        width: 100%;
+    }
+
+    .adoption-form .container h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .adoption-form .container .btn {
+        font-size: 15px;
+        padding: 10px 20px;
+        font-weight: 600;
+    }
+
+    .contactUs h1 {
+        font-size: 30px;
+    }
+
+    .contactUs .contact-form {
+        width: 400px;
+        padding: 22px 20px;
+    }
+
+    .footer-section {
+        padding: 20px;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-section .footer-top .container .row {
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .footer-section .footer-top .container .row .col div {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .footer-top .container .row .col ul li a {
+        font-size: 15px;
+    }
+
+    .footer-top .container .row .col .bottom-header-logo h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:426px) {
+    .header {
+        height: 40px;
+        padding: 0 6px;
+    }
+
+    .header .header-logo h2 {
+        font-size: 12px;
+    }
+
+    .header .header-logo h2 i {
+        font-size: 15px;
+        margin-right: 3px;
+    }
+
+    .header .navigation {
+        gap: 6px;
+    }
+
+    .header .main-menu .navigation li a {
+        font-size: 10px;
+    }
+
+    .hero-section {
+        height: 70%;
+    }
+
+    .hero-section .container {
+        width: 70%;
+        padding: 18px 25px;
+    }
+
+    .hero-section .container .hero-text h4 {
+        font-size: 20px;
+    }
+
+    .hero-section .container .hero-text h4 span {
+        font-size: 25px;
+    }
+
+    .hero-section .container .hero-text p {
+        font-size: 12px;
+        margin: 15px 0;
+    }
+
+    .hero-section .container .hero-text button {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .pet-selection .heading h1 {
+        font-size: 20px;
+    }
+
+    .pet-selection .heading p {
+        font-size: 15px;
+    }
+
+    .pet-selection {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .card-section {
+        width: 100%;
+        margin: 10px 5px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-section .card {
+        padding: 10px 12px;
+        margin: 5px;
+    }
+
+    .card i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .about-us {
+        height: 80%;
+    }
+
+    .para {
+        padding: 20px 20px;
+        width: 80%;
+    }
+
+    .para h1 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .para p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .adoption-form {
+        padding: 0;
+    }
+
+    .adoption-form .container {
+        width: 100%;
+        padding: 40px 25px;
+    }
+
+    .adoption-form .container h1 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .adoption-form .container .btn {
+        font-size: 12px;
+        padding: 10px 10px;
+        font-weight: 600;
+    }
+
+    .contactUs h1 {
+        font-size: 25px;
+    }
+
+    .contactUs .contact-form {
+        width: 300px;
+        padding: 22px 20px;
+    }
+
+    .contactUs {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .contactUs .contact-form label {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .contactUs .contact-form input {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .contactUs .contact-form textarea {
+        font-size: 12px;
+        height: 80px;
+    }
+
+    .contactUs .contact-form .contact-btn {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .footer-section {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-section .footer-top .container .row {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .footer-section .footer-top .container .row .col div {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .footer-top .container .row .col ul li a {
+        font-size: 15px;
+    }
+
+    .footer-top .container .row .col .bottom-header-logo h2 {
+        font-size: 18px;
+    }
+
+    .address-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:376px) {
+    .header {
+        height: 35px;
+        padding: 0 5px;
+    }
+
+    .header .header-logo h2 {
+        font-size: 12px;
+    }
+
+    .header .header-logo h2 i {
+        font-size: 13px;
+        margin-right: 2px;
+    }
+
+    .header .navigation {
+        gap: 6px;
+    }
+
+    .header .main-menu .navigation li a {
+        font-size: 8px;
+    }
+
+    .hero-section {
+        height: 60%;
+    }
+
+    .hero-section .container {
+        width: 80%;
+        padding: 12px 20px;
+    }
+
+    .hero-section .container .hero-text h4 {
+        font-size: 16px;
+    }
+
+    .hero-section .container .hero-text h4 span {
+        font-size: 18px;
+    }
+
+    .hero-section .container .hero-text p {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    .hero-section .container .hero-text button {
+        padding: 8px 15px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .pet-selection .heading h1 {
+        font-size: 18px;
+    }
+
+    .pet-selection .heading p {
+        font-size: 12px;
+    }
+
+    .pet-selection {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .card-section {
+        width: 100%;
+        margin: 10px 5px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-section .card {
+        padding: 10px 12px;
+        margin: 5px;
+    }
+
+    .card i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .about-us {
+        height: 80%;
+    }
+
+    .para {
+        padding: 20px 18px;
+        width: 85%;
+    }
+
+    .para h1 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .para p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .adoption-form {
+        padding: 0;
+    }
+
+    .adoption-form .container {
+        width: 100%;
+        padding: 40px 15px;
+    }
+
+    .adoption-form .container h1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .adoption-form .container .btn {
+        font-size: 12px;
+        padding: 10px 10px;
+        font-weight: 600;
+    }
+
+    .contactUs h1 {
+        font-size: 20px;
+    }
+
+    .contactUs .contact-form {
+        width: 300px;
+        padding: 22px 20px;
+    }
+
+    .contactUs {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .contactUs .contact-form label {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .contactUs .contact-form input {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .contactUs .contact-form textarea {
+        font-size: 12px;
+        height: 80px;
+    }
+
+    .contactUs .contact-form .contact-btn {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .footer-section {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-section .footer-top .container .row {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .footer-section .footer-top .container .row .col div {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .footer-top .container .row .col ul li a {
+        font-size: 12px;
+    }
+
+    .footer-top .container .row .col .bottom-header-logo h2 {
+        font-size: 15px;
+    }
+
+    .address-text {
+        font-size: 12px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:321px) {
+    .header {
+        height: 35px;
+        padding: 0 5px;
+    }
+
+    .header .header-logo h2 {
+        font-size: 10px;
+    }
+
+    .header .header-logo h2 i {
+        font-size: 11px;
+        margin-right: 2px;
+    }
+
+    .header .navigation {
+        gap: 3px;
+    }
+
+    .header .main-menu .navigation li a {
+        font-size: 8px;
+    }
+
+    .hero-section {
+        height: 50%;
+    }
+
+    .hero-section .container {
+        width: 80%;
+        padding: 12px 20px;
+    }
+
+    .hero-section .container .hero-text h4 {
+        font-size: 12px;
+    }
+
+    .hero-section .container .hero-text h4 span {
+        font-size: 14px;
+    }
+
+    .hero-section .container .hero-text p {
+        font-size: 10px;
+        margin: 10px 0;
+    }
+
+    .hero-section .container .hero-text button {
+        padding: 8px 15px;
+        font-size: 10px;
+        margin-top: 8px;
+    }
+
+    .pet-selection .heading h1 {
+        font-size: 18px;
+    }
+
+    .pet-selection .heading p {
+        font-size: 12px;
+    }
+
+    .pet-selection {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .card-section {
+        width: 100%;
+        margin: 10px 5px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-section .card {
+        padding: 10px 12px;
+        margin: 5px;
+    }
+
+    .card i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .about-us {
+        height: 75%;
+    }
+
+    .para {
+        padding: 20px 15px;
+        width: 90%;
+    }
+
+    .para h1 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .para p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .adoption-form {
+        padding: 0;
+    }
+
+    .adoption-form .container {
+        width: 100%;
+        padding: 25px 10px;
+    }
+
+    .adoption-form .container h1 {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .adoption-form .container .btn {
+        font-size: 10px;
+        padding: 10px 10px;
+        font-weight: 600;
+    }
+
+    .contactUs h1 {
+        font-size: 20px;
+    }
+
+    .contactUs {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .contactUs .contact-form {
+        width: 250px;
+        padding: 22px 20px;
+    }
+
+    .contactUs .contact-form label {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .contactUs .contact-form input {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .contactUs .contact-form textarea {
+        font-size: 12px;
+        height: 80px;
+    }
+
+    .contactUs .contact-form .contact-btn {
+        padding: 10px 8px;
+        font-size: 15px;
+    }
+
+    .footer-section {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-section .footer-top .container .row {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .footer-section .footer-top .container .row .col div {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .footer-top .container .row .col ul li a {
+        font-size: 12px;
+    }
+
+    .footer-top .container .row .col .bottom-header-logo h2 {
+        font-size: 15px;
+    }
+
+    .address-text {
+        font-size: 12px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
